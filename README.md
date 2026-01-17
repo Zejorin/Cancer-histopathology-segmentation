@@ -1,9 +1,11 @@
 **Multi-Class Histopathology Segmentation \& Classification**
+
 This repository implements an advanced medical AI pipeline using MONAI and SegResNet to perform multi-class tissue segmentation and classification on histopathology slides. It marks an evolution from simple binary models to a complex 6-class architecture capable of distinguishing between high-priority biological features.
 
 
 
 **Project Overview**
+
 The primary challenge of this project was the transition from a binary "cell vs. background" structure to a 6-class tissue classifier. This shift required a complete architectural redesign, moving from Sigmoid-based binary logic to a Softmax/Argmax pipeline to handle competing cell categories including:
 
 Neoplastic (Cancer)
@@ -20,7 +22,8 @@ Background
 
 
 
-**Key Results**
+***Key Results***
+
 Segmentation (DICE Score): 0.68
 
 Classification (F1-Score): 0.71
@@ -103,4 +106,5 @@ Handling extreme class imbalance in histopathology.
 Optimizing MONAI transforms for better Dice score performance.
 
 If you would like to discuss the codebase or technical implementation, please feel free to reach out!
+
 
