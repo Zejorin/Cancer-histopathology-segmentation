@@ -22,7 +22,7 @@ Background
 
 
 
-***Key Results***
+**Key Results**
 
 Segmentation (DICE Score): 0.68
 
@@ -107,6 +107,7 @@ Handling extreme class imbalance in histopathology.
 Optimizing MONAI transforms for better Dice score performance.
 
 If you would like to discuss the codebase or technical implementation, please feel free to reach out!
+
 
 
 
