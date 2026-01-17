@@ -61,6 +61,7 @@ Ensure you have Python 3.10+ and the required medical imaging libraries: pip ins
 After running import.py, your folder should look like this:
 
 📁 your-repo-name
+
 ├── 📁 .venv (if running virtal environment)
 
 ├── 📁 Author notes
@@ -106,5 +107,6 @@ Handling extreme class imbalance in histopathology.
 Optimizing MONAI transforms for better Dice score performance.
 
 If you would like to discuss the codebase or technical implementation, please feel free to reach out!
+
 
 
